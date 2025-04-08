@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeApi", "HomeApi\HomeApi.csproj", "{FA24786F-1343-466D-B4BA-01CFC6462DED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeApi.Contracts", "HomeApi.Contracts\HomeApi.Contracts.csproj", "{899CC665-F772-4F0E-ACC4-BE05D74BB77F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeApi.Data", "HomeApi.Data\HomeApi.Data.csproj", "{4832D7FA-BC6A-4F44-9B2E-CD5B6F28E727}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{FA24786F-1343-466D-B4BA-01CFC6462DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA24786F-1343-466D-B4BA-01CFC6462DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA24786F-1343-466D-B4BA-01CFC6462DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899CC665-F772-4F0E-ACC4-BE05D74BB77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899CC665-F772-4F0E-ACC4-BE05D74BB77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899CC665-F772-4F0E-ACC4-BE05D74BB77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899CC665-F772-4F0E-ACC4-BE05D74BB77F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4832D7FA-BC6A-4F44-9B2E-CD5B6F28E727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4832D7FA-BC6A-4F44-9B2E-CD5B6F28E727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4832D7FA-BC6A-4F44-9B2E-CD5B6F28E727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4832D7FA-BC6A-4F44-9B2E-CD5B6F28E727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
